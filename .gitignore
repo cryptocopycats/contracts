@@ -1,3 +1,15 @@
+####################
+#  copycats specific ignores
+
+kitties.db
+dl/
+data/
+data2/
+data3/
+debug/
+
+
+
 *.gem
 *.rbc
 /.config

@@ -1,4 +1,4 @@
-# bitcat - Bit Catalog Browser
+# bitcat - Bit Catalog Kitty Browser
 
 browse your (digital) bit(s) collections -
 browse your (crypto) kitties and more
@@ -10,11 +10,32 @@ browse your (crypto) kitties and more
 * rdoc  :: [rubydoc.info/gems/bitcat](http://rubydoc.info/gems/bitcat)
 
 
-
 ## Usage
 
-to be done
 
+### Step 0 - Database Setup
+
+Note: The bitcat server machinery requires a (local) single-file SQLite database,
+that is, `kitties.db`, in your working folder.
+
+See the [Copycats page on how to setup a (local) single-file SQLite database »](https://github.com/openblockchains/copycats#database-setup)
+
+
+
+### Step 1 - Start the Bitcat Server
+
+Start up the bitcat server on the command line:
+
+    $ bitcat
+
+
+### Step 3 - Open Bitcat Page in Browser
+
+Open up the browser at `localhost:4567`.
+
+![](bitcat.png)
+
+That's it. Enjoy.
 
 
 

@@ -18,6 +18,9 @@ Hoe.spec 'bitcat' do
   self.history_file = 'HISTORY.md'
 
   self.extra_deps = [
+    ['sinatra', '>=2.0'],
+    ['sass'],   ## used for css style preprocessing (scss)
+    ['copycats', '>=0.6.1'],
   ]
 
   self.licenses = ['Public Domain']
