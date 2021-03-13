@@ -23,7 +23,7 @@ bytes16 public imageGenerationCodeMD5 = 0xdbad5c08ec98bec48490e3c196eec683;
 
 MoonCats meta data:
 
-```
+``` solidity
 string public name = "MoonCats";
 string public symbol = "?"; // unicode cat symbol
 uint8 public decimals = 0;
@@ -35,7 +35,7 @@ uint16 public remainingGenesisCats = 256; // there can only be a maximum of 256 
 
 Gets set with the immediately preceding blockhash when the contract is activated to prevent "premining"
 
-```
+``` solidity
 bytes32 public searchSeed = 0x0;
 ```
 
