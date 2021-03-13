@@ -72,7 +72,13 @@ Etherscan
 For more see [**Inside the Wrapped CryptoKitties (WCK, WG0, WVG0) Blockchain Contracts / Services »**](cryptokitties-wrapped)
 
 
+
 ## CryptoCats
+
+> Cute little 8-bit cats on the Blockchain.
+> Launched v3 in December 2017 with 625 vintage non-fungible tokens (NFTs),
+> pre the ERC721 standard.
+
 
 ### /cryptocats - CryptoCatsMarket
 
@@ -88,13 +94,22 @@ For more see [**Inside the CryptoCats Blockchain Contract / Service »**](crypto
 
 ## MoonCats
 
+> MoonCatRescue is an exploration of user-discoverable blockchain assets.
+> Users "mine" for MoonCats in their browser.
+> After MoonCats are "mined", they can be put up for adoption,
+> adoptions can be requested, they can be given away,
+> and they can be permanently named.
+>
+> Launched in August 2017 with 25,600 non-fungible tokens (NFTs) to rescue,
+> pre the ERC721 standard.
+
+
+
 ### /mooncats - MoonCatRescue
 
 Etherscan
 
 - MoonCatResuce, see contract address [`0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6`](https://etherscan.io/address/0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6#code)
-
-> MoonCatRescue is an exploration of discoverable blockchain assets
 
 
 For more see [**Inside the MoonCatRescue Blockchain Contract / Service »**](mooncats)
