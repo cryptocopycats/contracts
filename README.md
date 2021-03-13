@@ -119,6 +119,8 @@ For more see [**Inside the MoonCatRescue Blockchain Contract / Service »**](moo
 
 ### /mooncats-wrapped - MoonCatsWrapped - Wrapped MoonCatsRescue (WMCR)
 
+> Wrapped MoonCats Rescue is an unofficial ERC721 wrapping of the MoonCats Rescue contract.
+
 Etherscan
 
 - MoonCatsWrapped - Wrapped MoonCatsRescue (WMCR), see contract address [`0x7c40c393dc0f283f318791d746d894ddd3693572`](https://etherscan.io/address/0x7c40c393dc0f283f318791d746d894ddd3693572#code)
