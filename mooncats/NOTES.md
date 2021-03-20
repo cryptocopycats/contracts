@@ -53,7 +53,7 @@ Finally, using funds in the contract without the need to withdraw them first wou
 
 Old - see <https://etherscan.io/address/0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6#code>:
 
-``` soliditiy
+``` solidity
   function addGenesisCatGroup() onlyOwner activeMode {
     require(remainingGenesisCats > 0);
     bytes5[16] memory newCatIds;
@@ -85,13 +85,13 @@ New in Binance MoonCat - see <https://bscscan.com/address/0x7A00B19eDc00fa5fB65F
 note: the fix is adding the missing line that adds the owner entry
 to catOwners mapping (?):
 
-``` soliditiy
+``` solidity
 catOwners[genesisCatId] = owner;
 ```
 
 in full:
 
-``` soliditiy
+``` solidity
 function addGenesisCatGroup() onlyOwner activeMode {
         require(remainingGenesisCats > 0);
         bytes5[16] memory newCatIds;
@@ -124,13 +124,13 @@ New in MarsCats - see <https://bscscan.com/address/0xd31bad66aefa525b808ee569a51
 note: the fix is adding the missing line that adds the owner entry
 to catOwners mapping (?):
 
-``` soliditiy
+``` solidity
 catOwners[genesisCatId] = msg.sender;
 ```
 
 in full:
 
-``` soliditiy
+``` solidity
     function addGenesisCatGroup(uint8 count) public onlyOwner activeMode {
         require(remainingGenesisCats > 0,"No genesis left");
         require(count<=256,"Max count is 256");
