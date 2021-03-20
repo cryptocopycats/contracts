@@ -117,6 +117,19 @@ For more see [**Inside the MoonCatRescue Blockchain Contract / Service »**](moo
 
 
 
+### /mooncats-vote - MoonCatKeyVote
+
+> Should the MoonCatRescue developers
+> destroy their private key so that no future Genesis MoonCats can ever be
+> released?  Yes / True or No / False
+
+
+Etherscan
+
+- MoonCatKeyVote, see contract address [`0x1916F482BB9F3523a489791Ae3d6e052b362C777`](https://etherscan.io/address/0x1916F482BB9F3523a489791Ae3d6e052b362C777#code)
+
+
+
 
 ### /mooncats-wrapped - MoonCatsWrapped - Wrapped MoonCatsRescue (WMCR)
 

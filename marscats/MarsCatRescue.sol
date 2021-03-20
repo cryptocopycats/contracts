@@ -1,8 +1,8 @@
-/**
+/*
  * copied from https://bscscan.com/address/0xd31bad66aefa525b808ee569a514f6345b0bea2d#code
  *
  * Submitted for verification at BscScan.com on 2021-03-18
-*/
+ */
 
 pragma solidity ^0.4.23;
 
