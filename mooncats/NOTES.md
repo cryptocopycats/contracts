@@ -46,3 +46,118 @@ It's worth mentioning that the aggregate getters functions (`getCatOwners`, `get
 Finally, using funds in the contract without the need to withdraw them first would definitely have been a good feature. It's tough balancing additional features against their added complexity and the additional opporunities for bugs, but in this case it might have been worthwhile.
 
 
+
+
+
+## Fixing Genesis Bug
+
+Old - see <https://etherscan.io/address/0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6#code>:
+
+``` soliditiy
+  function addGenesisCatGroup() onlyOwner activeMode {
+    require(remainingGenesisCats > 0);
+    bytes5[16] memory newCatIds;
+    uint256 price = (17 - (remainingGenesisCats / 16)) * 300000000000000000;
+    for(uint8 i = 0; i < 16; i++) {
+
+      uint16 genesisCatIndex = 256 - remainingGenesisCats;
+      bytes5 genesisCatId = (bytes5(genesisCatIndex) << 24) | 0xff00000ca7;
+
+      newCatIds[i] = genesisCatId;
+
+      rescueOrder[rescueIndex] = genesisCatId;
+      rescueIndex++;
+      balanceOf[0x0]++;
+      remainingGenesisCats--;
+
+      adoptionOffers[genesisCatId] = AdoptionOffer(true,
+                                                   genesisCatId,
+                                                   owner,
+                                                   price,
+                                                   0x0);
+    }
+    GenesisCatsAdded(newCatIds);
+  }
+```
+
+New in Binance MoonCat - see <https://bscscan.com/address/0x7A00B19eDc00fa5fB65F32B4D263CE753Df8f651#code>:
+
+note: the fix is adding the missing line that adds the owner entry
+to catOwners mapping (?):
+
+``` soliditiy
+catOwners[genesisCatId] = owner;
+```
+
+in full:
+
+``` soliditiy
+function addGenesisCatGroup() onlyOwner activeMode {
+        require(remainingGenesisCats > 0);
+        bytes5[16] memory newCatIds;
+        uint256 price = (5 - (remainingGenesisCats / 16)) * 5000000000000000000;
+        for(uint8 i = 0; i < 16; i++) {
+
+            uint16 genesisCatIndex = 64 - remainingGenesisCats;
+            bytes5 genesisCatId = (bytes5(genesisCatIndex) << 24) | 0xff00000ca7;
+
+            newCatIds[i] = genesisCatId;
+
+            rescueOrder[rescueIndex] = genesisCatId;
+            rescueIndex++;
+            balanceOf[owner]++;
+            remainingGenesisCats--;
+            catOwners[genesisCatId] = owner;
+
+            adoptionOffers[genesisCatId] = AdoptionOffer(true,
+                                                         genesisCatId,
+                                                         owner,
+                                                         price,
+                                                         0x0);
+        }
+        GenesisCatsAdded(newCatIds);
+    }
+```
+
+New in MarsCats - see <https://bscscan.com/address/0xd31bad66aefa525b808ee569a514f6345b0bea2d#code>
+
+note: the fix is adding the missing line that adds the owner entry
+to catOwners mapping (?):
+
+``` soliditiy
+catOwners[genesisCatId] = msg.sender;
+```
+
+in full:
+
+``` soliditiy
+    function addGenesisCatGroup(uint8 count) public onlyOwner activeMode {
+        require(remainingGenesisCats > 0,"No genesis left");
+        require(count<=256,"Max count is 256");
+        bytes5[256] memory newCatIds;
+        uint256 price = 2000000000000000000;
+        for (uint8 i = 0; i < count; i++) {
+            uint16 genesisCatIndex = 256 - remainingGenesisCats;
+            bytes5 genesisCatId = (bytes5(genesisCatIndex) << 24) | 0xff00000ca7;
+
+            newCatIds[i] = genesisCatId;
+
+            rescueOrder[rescueIndex] = genesisCatId;
+            rescueIndex++;
+
+            catOwners[genesisCatId] = msg.sender;
+            balanceOf[msg.sender]++;
+
+            remainingGenesisCats--;
+
+            adoptionOffers[genesisCatId] = AdoptionOffer(
+                true,
+                genesisCatId,
+                owner,
+                price,
+                0x0
+            );
+        }
+        emit GenesisCatsAdded(newCatIds);
+    }
+```
