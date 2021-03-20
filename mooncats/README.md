@@ -25,7 +25,7 @@ MoonCats meta data:
 
 ``` solidity
 string public name = "MoonCats";
-string public symbol = "?"; // unicode cat symbol
+string public symbol = "🐱"; // unicode cat symbol
 uint8 public decimals = 0;
 
 uint256 public totalSupply = 25600;

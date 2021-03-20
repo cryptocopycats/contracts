@@ -130,3 +130,21 @@ For more see [**Inside the Wrapped MoonCatsRescue (WMCR) Blockchain Contract / S
 
 
 
+
+## MarsCats  - MoonCats "Remake" on Binance (Ethereum) Smart Chain
+
+> Wow. You guys are awesome!
+> All [25 600¹] cats has been rescued [in 24 hours]!
+
+¹: Minus the 256 possible released genesis cats.
+
+
+
+### /marscats - MarsCatRescue
+
+Bscscan
+
+- MarsCatResuce, see contract address [`0xd31bad66aefa525b808ee569a514f6345b0bea2d`](https://bscscan.com/address/0xd31bad66aefa525b808ee569a514f6345b0bea2d#code)
+
+
+

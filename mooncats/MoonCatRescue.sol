@@ -16,7 +16,7 @@ contract MoonCatRescue {
   bytes16 public imageGenerationCodeMD5 = 0xdbad5c08ec98bec48490e3c196eec683; // use this to verify mooncatparser.js the cat image data generation javascript file.
 
   string public name = "MoonCats";
-  string public symbol = "?"; // unicode cat symbol
+  string public symbol = "🐱"; // unicode cat symbol
   uint8 public decimals = 0;
 
   uint256 public totalSupply = 25600;
