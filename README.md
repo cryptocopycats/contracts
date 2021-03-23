@@ -141,10 +141,8 @@ Etherscan
 > MoonCatRescue contract
 > due to the outcome of the vote contract.
 >
-> If confirmed  - this contract represents a public transfer of the
-> official ponderware address.
->
-> To ensure confirmation and get ponderware's new address,
+> This contract represents a public transfer of the
+> official ponderware address. To ensure confirmation and get ponderware's new address,
 > call the `whereIsPonderware` function.
 
 - PonderwareTransferOfAuthority, see contract address [`0xa3843c6f47384e3ca951bd0207179f58d2179d3f`](https://etherscan.io/address/0xa3843c6f47384e3ca951bd0207179f58d2179d3f#code)
