@@ -174,7 +174,7 @@ For more see [**Inside the Wrapped MoonCatsRescue (WMCR) Blockchain Contract / S
 ¹: Minus the 256 possible released genesis cats.
 
 > Private key to access MoonCatRescue contract has been burned.
-> That means 160 genesis will be forgotten forever.
+> That means 160 genesis cats will be forgotten forever.
 > But, what if you can release all of the genesis cats?
 > Wonder how cute they will look like?
 > Go find and rescue them on MarsCatRescue.
