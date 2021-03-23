@@ -122,11 +122,32 @@ For more see [**Inside the MoonCatRescue Blockchain Contract / Service »**](moo
 > Should the MoonCatRescue developers
 > destroy their private key so that no future Genesis MoonCats can ever be
 > released?  Yes / True or No / False
+>
+> Update:
+>
+> The community has spoken.
+> With a final outcome of YES: 944 NO: 367,
+> the devs will destroy their private key to the MoonCatRescue contract.
+> The contract will be left as found. The remaining Genesis MoonCats
+> will never be released and will continue to live happily on the moon.
 
 
 Etherscan
 
 - MoonCatKeyVote, see contract address [`0x1916F482BB9F3523a489791Ae3d6e052b362C777`](https://etherscan.io/address/0x1916F482BB9F3523a489791Ae3d6e052b362C777#code)
+
+
+> Ponderware is destroying the private key controlling the
+> MoonCatRescue contract
+> due to the outcome of the vote contract.
+>
+> If confirmed  - this contract represents a public transfer of the
+> official ponderware address.
+>
+> To ensure confirmation and get ponderware's new address,
+> call the `whereIsPonderware` function.
+
+- PonderwareTransferOfAuthority, see contract address [`0xa3843c6f47384e3ca951bd0207179f58d2179d3f`](https://etherscan.io/address/0xa3843c6f47384e3ca951bd0207179f58d2179d3f#code)
 
 
 
@@ -152,6 +173,11 @@ For more see [**Inside the Wrapped MoonCatsRescue (WMCR) Blockchain Contract / S
 
 ¹: Minus the 256 possible released genesis cats.
 
+> Private key to access MoonCatRescue contract has been burned.
+> That means 160 genesis will be forgotten forever.
+> But, what if you can release all of the genesis cats?
+> Wonder how cute they will look like?
+> Go find and rescue them on MarsCatRescue.
 
 
 ### /marscats - MarsCatRescue
