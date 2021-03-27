@@ -125,11 +125,11 @@ For more see [**Inside the MoonCatRescue Blockchain Contract / Service »**](moo
 >
 > Update:
 >
-> The vote is live - please vote! 
+> The vote is live - please vote!
 >
-> Any address that has interacted with either 
-> the MoonCatRescue contract (`0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6`) or 
-> the main Wrapped MoonCatsRescue contract (`0x7c40c393dc0f283f318791d746d894ddd3693572`) 
+> Any address that has interacted with either
+> the MoonCatRescue contract (`0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6`) or
+> the main Wrapped MoonCatsRescue contract (`0x7c40c393dc0f283f318791d746d894ddd3693572`)
 > prior to Block 12047300 (Mar-16-2021 03:35:24 AM +UTC) will get one vote.
 >
 > Update:
@@ -169,6 +169,22 @@ Etherscan
 
 
 For more see [**Inside the Wrapped MoonCatsRescue (WMCR) Blockchain Contract / Service »**](mooncats-wrapped)
+
+
+### /mooncats-helper - MooncatHelper
+
+> Atomic buy-and-wrap contract to transform mooncats for sale
+> in the adoption center into Wrapped Mooncats
+> in a single transaction [for a 0.01 ETH fee].
+
+<!-- https://twitter.com/seeker_curious/status/1371986578654916609
+ -->
+
+Etherscan
+
+- MooncatHelper, see contract address [`0x9aa3d159eb155305a11af921696576a3e195d24d`](https://etherscan.io/address/0x9aa3d159eb155305a11af921696576a3e195d24d#code)
+
+
 
 
 
