@@ -186,6 +186,25 @@ Etherscan
 
 
 
+### /mooncats-hd  -  High-Definition (HD) Mooncats (HDMC)
+
+>  Mooncats a little low-res [~24x24 pixels]? Now admire them in all their beauty.
+> Each Mooncat owner (unwrapped & wrapped) can mint the
+> [High-Definition] HD version of their cats.
+>
+>  Price to mint follows the bonding curve:
+>
+> - 0-999: 0.01 eth
+> - 1000-4999: 0.05 eth
+> - 5000-14999: 0.10 eth
+> - 15000-24339: 0.20 eth
+
+
+Etherscan
+
+- HDMooncats (HDMC), see contract address [`0xd1b01ea07981a40907f6b8f472cc8f37066dfea7`](https://etherscan.io/address/0xd1b01ea07981a40907f6b8f472cc8f37066dfea7#code)
+
+
 
 
 
