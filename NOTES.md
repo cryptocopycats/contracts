@@ -17,3 +17,12 @@ see <https://etherscan.io/address/0xd0e7bc3f1efc5f098534bce73589835b8273b9a0#cod
 
 
 
+---
+
+More Notes
+
+https://twitter.com/CryptoCatsFD  - CryptoCats "First Deployed"
+
+https://cryptocatslistings.com
+
+
