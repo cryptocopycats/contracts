@@ -116,47 +116,18 @@ Etherscan
 For more see [**Inside the MoonCatRescue Blockchain Contract / Service »**](mooncats)
 
 
+### /mooncats-acclimated - MoonCatAcclimator
 
-### /mooncats-vote - MoonCatKeyVote
-
-> Should the MoonCatRescue developers
-> destroy their private key so that no future Genesis MoonCats can ever be
-> released?  Yes / True or No / False
->
-> Update:
->
-> The vote is live - please vote!
->
-> Any address that has interacted with either
-> the MoonCatRescue contract (`0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6`) or
-> the main Wrapped MoonCatsRescue contract (`0x7c40c393dc0f283f318791d746d894ddd3693572`)
-> prior to Block 12047300 (Mar-16-2021 03:35:24 AM +UTC) will get one vote.
->
-> Update:
->
-> The community has spoken.
-> With a final outcome of YES: 944 NO: 367,
-> the devs will destroy their private key to the MoonCatRescue contract.
-> The contract will be left as found. The remaining Genesis MoonCats
-> will never be released and will continue to live happily on the moon.
-
+> MoonCat​Acclimator
+> - accepts an original MoonCat and wraps it to present an ERC721- and ERC998-compliant asset
+> - accepts a MoonCat wrapped with the older wrapping contract (at 0x7C40c3...) and re-wraps them
 
 Etherscan
 
-- MoonCatKeyVote, see contract address [`0x1916F482BB9F3523a489791Ae3d6e052b362C777`](https://etherscan.io/address/0x1916F482BB9F3523a489791Ae3d6e052b362C777#code)
+- MoonCatAcclimator, see contract address [`0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69`](https://etherscan.io/address/0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69#code)
 
 
-> Ponderware is destroying the private key controlling the
-> MoonCatRescue contract
-> due to the outcome of the vote contract.
->
-> This contract represents a public transfer of the
-> official ponderware address. To ensure confirmation and get ponderware's new address,
-> call the `whereIsPonderware` function.
-
-- PonderwareTransferOfAuthority, see contract address [`0xa3843c6f47384e3ca951bd0207179f58d2179d3f`](https://etherscan.io/address/0xa3843c6f47384e3ca951bd0207179f58d2179d3f#code)
-
-
+For more see [**/mooncats-acclimated »**](mooncats-acclimated)
 
 
 ### /mooncats-wrapped - MoonCatsWrapped - Wrapped MoonCatsRescue (WMCR)
@@ -186,6 +157,50 @@ Etherscan
 
 
 
+### /mooncats-vote - MoonCatKeyVote
+
+> Should the MoonCatRescue developers
+> destroy their private key so that no future Genesis MoonCats can ever be
+> released?  Yes / True or No / False
+>
+> Update:
+>
+> The vote is live - please vote!
+>
+> Any address that has interacted with either
+> the MoonCatRescue contract (`0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6`) or
+> the main Wrapped MoonCatsRescue contract (`0x7c40c393dc0f283f318791d746d894ddd3693572`)
+> prior to Block 12047300 (Mar-16-2021 03:35:24 AM +UTC) will get one vote.
+>
+> Update:
+>
+> The community has spoken.
+> With a final outcome of YES: 944 NO: 367,
+> the devs will destroy their private key to the MoonCatRescue contract.
+> The contract will be left as found. The remaining Genesis MoonCats
+> will never be released and will continue to live happily on the moon.
+
+
+Etherscan
+
+- MoonCatKeyVote, see contract address [`0x1916F482BB9F3523a489791Ae3d6e052b362C777`](https://etherscan.io/address/0x1916F482BB9F3523a489791Ae3d6e052b362C777#code)
+
+For more see [**/mooncats-vote »**](mooncats-vote)
+
+
+> Ponderware is destroying the private key controlling the
+> MoonCatRescue contract
+> due to the outcome of the vote contract.
+>
+> This contract represents a public transfer of the
+> official ponderware address. To ensure confirmation and get ponderware's new address,
+> call the `whereIsPonderware` function.
+
+- PonderwareTransferOfAuthority, see contract address [`0xa3843c6f47384e3ca951bd0207179f58d2179d3f`](https://etherscan.io/address/0xa3843c6f47384e3ca951bd0207179f58d2179d3f#code)
+
+
+
+
 ### /mooncats-hd  -  High-Definition (HD) Mooncats (HDMC)
 
 >  Mooncats a little low-res [~24x24 pixels]? Now admire them in all their beauty.
@@ -203,6 +218,9 @@ Etherscan
 Etherscan
 
 - HDMooncats (HDMC), see contract address [`0xd1b01ea07981a40907f6b8f472cc8f37066dfea7`](https://etherscan.io/address/0xd1b01ea07981a40907f6b8f472cc8f37066dfea7#code)
+
+
+For more see [**/mooncats-hd »**](mooncats-hd)
 
 
 
@@ -228,5 +246,7 @@ Bscscan
 
 - MarsCatResuce, see contract address [`0xd31bad66aefa525b808ee569a514f6345b0bea2d`](https://bscscan.com/address/0xd31bad66aefa525b808ee569a514f6345b0bea2d#code)
 
+
+For more see [**/marscats »**](marscats)
 
 
