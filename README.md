@@ -38,16 +38,16 @@ with inline running commentary. Thanks!
 
 
 
-> The auctions are
+> The auctions are {https://docs.etherscan.io/api-pro/api-pro}
 > seperate since their logic is somewhat complex and there's always a risk of subtle bugs. By keeping
 > them in their own contracts, we can upgrade them without disrupting the main contract that tracks
 > kitty ownership.
 >
-> -- Commentary from the CryptoKitties source code
+> -- Commentary from the {<CryptoKitties>} source code
 
 
-- SaleClockAuction, see contract address [`0xb1690c08e213a35ed9bab7b318de14420fb57d8c`](https://etherscan.io/address/0xb1690c08e213a35ed9bab7b318de14420fb57d8c#code)
-- SiringClockAuction, see contract address [`0xc7af99fe5513eb6710e6d5f44f9989da40f27f26`](https://etherscan.io/address/0xc7af99fe5513eb6710e6d5f44f9989da40f27f26#code)
+- SaleClockAuction, see contract address{ [`0xb1690c08e213a35ed9bab7b318de14420fb57d8c`]}{(https://etherscan.io/address/0xb1690c08e213a35ed9bab7b318de14420fb57d8c#code)}
+- SiringClockAuction, see contract address{ [`0xc7af99fe5513eb6710e6d5f44f9989da40f27f26`]}{(https://etherscan.io/address/0xc7af99fe5513eb6710e6d5f44f9989da40f27f26#code)}
 
 
 
